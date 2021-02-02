@@ -4,6 +4,8 @@ const path = require("path");
 const server = require("http").Server(app);
 const io = require("socket.io").listen(server);
 
+
+
 var players = {};
 const sprites = ["dude", "frog", "pink", "guy"];
 const startPositions = [
